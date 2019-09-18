@@ -1,6 +1,47 @@
+/*This is the styling of the buttons in the menu's!
+*/
 
+nav.menu-nav ul li.btn{
+    display: inline-block;
+    list-style-type: none;
+    font-size: 40px;
+    background-color: red;
+}
 
-h1.h1{
+nav.menu-nav ul li.btn a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav.menu-nav ul li.btn:hover a{
+    color: red;
+    background-color: white;
+    transition: 0.3s all;
+}
+
+/*
+This is the styling of the page's content like headings and paragraphs...
+*/
+
+h1{
     color: blue;
+}
+
+h2{
+    color: orange;
+}
+
+h3{
+    color: olive;
+}
+
+
+p.p2{
+    color: red;
+}
+
+p.p3{
+    color: blueviolet;
 }
 
